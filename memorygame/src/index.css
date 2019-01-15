@@ -1,14 +1,50 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+    position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.card {
+    background: #fff;
+    border-radius: 2px;
+    height: 160px;
+    overflow: hidden;
+    margin: 1rem;
+    position: relative;
+    width: 250px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
+}
+
+.card > .img-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.card > .img-container img {
+    margin-top: 10px;
+    width: 100%;
+    height: 140px;
+}
+.shakeWrapper {
+    animation: shake 0.5s; 
+}
+nav .brand-logo.center {
+    left: 2%;
+}
+
+@keyframes shake {
+    0% { transform: translate(5px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }

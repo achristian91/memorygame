@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Tesla",
+        "image": "https://cdn.pixabay.com/photo/2016/10/13/22/30/tesla-1738969_960_720.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Infiniti",
+        "image": "https://cdn.pixabay.com/photo/2017/09/17/16/43/infiniti-2759005_960_720.jpg"
+    },
+    {
+        "id": 3,
+        "name": "BMW",
+        "image": "https://cdn.pixabay.com/photo/2015/09/02/12/25/bmw-918408_960_720.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Mercedes",
+        "image": "https://cdn.pixabay.com/photo/2016/07/09/21/47/car-1506922_960_720.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Jaguar",
+        "image": "https://cdn.pixabay.com/photo/2016/05/02/10/37/jaguar-1366978_960_720.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Alpha Romeo",
+        "image": "https://cdn.pixabay.com/photo/2018/07/14/21/38/alpha-3538458_960_720.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Cadillac",
+        "image": "https://cdn.pixabay.com/photo/2016/06/06/17/20/oldtimer-1439952_960_720.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Maserati",
+        "image": "https://cdn.pixabay.com/photo/2018/01/15/23/44/maserati-granturismo-3085051_960_720.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Bentley",
+        "image": "https://cdn.pixabay.com/photo/2017/02/16/18/54/bentley-2072125_960_720.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Lexus",
+        "image": "https://cdn.pixabay.com/photo/2016/08/02/15/18/lexus-1563694_960_720.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Maybach",
+        "image": "https://cdn.pixabay.com/photo/2015/05/01/13/37/car-748476_960_720.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Audi",
+        "image": "https://cdn.pixabay.com/photo/2017/03/31/12/12/audi-2191220_960_720.jpg"
+    }
+]
